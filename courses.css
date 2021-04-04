@@ -173,11 +173,12 @@ main{
 
 .card-body h5{
     color: var(--text-grey);
+    font-size: large;
 }
 
 .card-body h4{
     color: var(--color-dark);
-    font-size: 1.1rem;
+    font-size: medium;
     margin-top: .2rem;
 }
 
@@ -262,10 +263,6 @@ main{
     }
     header{
         justify-content: normal;
-    }
-    
-    .search-wrapper input {
-        width:130px
     }
 }
 
