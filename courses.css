@@ -263,6 +263,10 @@ main{
     header{
         justify-content: normal;
     }
+    
+    .search-wrapper input {
+        width:130px
+    }
 }
 
 @media only screen and (max-width: 450px){
