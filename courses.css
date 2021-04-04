@@ -90,7 +90,7 @@
 
 }
 
-.header{
+header{
     position: fixed;
     left: 240px;
     top: 0;
@@ -260,7 +260,7 @@ main{
     .dash-cards{
         grid-template-columns: 100%;
     }
-    .header{
+    header{
         justify-content: normal;
     }
 }
