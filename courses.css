@@ -264,9 +264,43 @@ main{
     header{
         justify-content: normal;
     }
-     .search-wrapper input {
+    .search-wrapper input {
         width:130px
     }
+    .sidebar-menu{
+        display: none;
+    }
+    .sidebar{
+        height: 50px;
+    }
+    .main-content{
+        margin-left: 0;
+    }
+    #sidebar-toggle:checked ~ .sidebar{
+        width: 240px;
+        height: 100%;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-header h3 span:last-child,
+    #sidebar-toggle:checked ~ .sidebar li span:last-child{
+        display: inline;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    #sidebar-toggle:checked ~ .sidebar .sidebar-menu{
+        display: block;
+    }
+
+    #sidebar-toggle:checked ~ .main-content{
+        margin-left: 0px;
+    }
+
+    /* #sidebar-toggle:checked ~ .main-content header{
+        left: 60px;
+    } */
 }
 
 @media only screen and (max-width: 450px){
