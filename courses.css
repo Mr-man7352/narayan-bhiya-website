@@ -273,6 +273,9 @@ main{
     .sidebar{
         height: 60px;
     }
+    main{
+        padding: 1rem 1.5rem;
+    }
     .main-content{
         margin-left: 0;
     }
