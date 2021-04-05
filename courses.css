@@ -176,6 +176,10 @@ main{
     font-size: large;
 }
 
+.rspace{
+    margin-right: .5rem;
+}
+
 .card-body h4{
     color: var(--color-dark);
     font-size: medium;
